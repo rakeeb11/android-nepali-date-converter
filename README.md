@@ -1,0 +1,1 @@
+In this example, I have made an android application that is capable of nepali to english as well as english to nepali date conversion. The application is incomplete and various components will be added soon.

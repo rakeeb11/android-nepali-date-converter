@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    
+        <EditText android:id="@+id/year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="YEAR"
+            android:inputType="number"
+            android:singleLine="true"/>
+        <EditText android:id="@+id/month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="MONTH"
+            android:inputType="number"
+            android:singleLine="true"/>
+        <EditText android:id="@+id/day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="DAY"
+            android:inputType="number"
+            android:singleLine="true"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/converttoNepali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="to Nepali" />
+    
+    <Button
+        android:id="@+id/converttoEnglish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="to English" />
+    
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/conversionDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
